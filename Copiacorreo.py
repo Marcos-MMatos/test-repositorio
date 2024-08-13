@@ -54,14 +54,14 @@ def copiar_carpeta(origen, destino):
         # Enviar notificación de éxito
         asunto = f"Copia SIIGO completada: {marca_tiempo}"
         cuerpo = f"La copia de la carpeta se completó exitosamente.\nDestino: {destino_diario}"
-        enviar_notificacion(asunto, cuerpo, 'zafarismarcos@outlook.com')
+        enviar_notificacion(asunto, cuerpo, 'mmatos@zonafrancatayrona.com',)
 
         print(f'Copia completada: {destino_diario}')
     except Exception as e:
         # Enviar notificación de error
         asunto = f"Error al copiar la carpeta: {marca_tiempo}"
         cuerpo = f"Ocurrió un error al copiar la carpeta:\n{e}"
-        enviar_notificacion(asunto, cuerpo, 'zafarismarcos@outlook.com')
+        enviar_notificacion(asunto, cuerpo, 'mmatos@zonafrancatayrona.com')
 
         print(f'Error al copiar la carpeta: {e}')
 
