@@ -1,6 +1,0 @@
-123456
-password
-password123
-admin
-welcome
-hola
